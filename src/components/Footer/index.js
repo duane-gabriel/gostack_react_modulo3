@@ -9,6 +9,6 @@ const Footer = (props) => {
 Footer.propTypes = {
   count: PropTypes.number.isRequired,
 };
-const mapStateToProps = (state) => ({ count: state.favorites.length });
+const mapStateToProps = (state) => ({ count: state.favorites.data.length });
 
 export default connect(mapStateToProps)(Footer);
