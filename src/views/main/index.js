@@ -56,7 +56,6 @@ class Main extends Component {
               <p>
                 <strong>{favorite.name}</strong>({favorite.description})
               </p>
-              <a href="">Acessar</a>
             </li>
           ))}
         </ul>
